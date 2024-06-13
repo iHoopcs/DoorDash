@@ -1,0 +1,12 @@
+img {
+    width: 5rem;
+    height: 5vh;
+}
+
+a:hover{
+    color: red;
+}
+
+a{
+    color: black;
+}
