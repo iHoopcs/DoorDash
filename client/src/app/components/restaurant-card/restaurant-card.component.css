@@ -1,0 +1,36 @@
+.card {
+   width: fit-content;
+   border: none;
+   padding: 5px;
+}
+
+.rest-icon {
+    width: 20rem;
+    height: 12rem;
+}
+
+.rating-icon {
+    width: 20px;  
+    height: 15px; 
+    margin-bottom: 3px;
+    
+
+}
+
+img {
+    width: 25rem;
+    height: 20vh;
+}
+
+.rest-icons {
+    border: 0.1px solid black;
+    border-radius: 25px;
+    padding: 4px;
+}
+
+.rest-container {
+    width: fit-content;
+    
+}
+
+
