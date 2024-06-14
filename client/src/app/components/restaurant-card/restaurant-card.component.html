@@ -2,9 +2,9 @@
     <div class="row justify-content-between">
             <div class="card mb-5" *ngFor="let item of restaurants">
                 <img class="rest-icons" src={{item.image}} alt={{item.name}}/>
-                <div class="d-flex mx-2">
+                <div class="d-flex mx-2 justify-content-between">
                     <h5>{{item.name}}</h5>
-                    (<h6 class="mt-1">{{item.rating}}<img class="rating-icon" src="https://www.svgrepo.com/show/304546/star-filled.svg"/></h6>)
+                    <h6 class="mt-1">{{item.rating}}<img class="rating-icon mb-1" src="https://www.svgrepo.com/show/304546/star-filled.svg"/></h6>
                     
                 </div>
                 

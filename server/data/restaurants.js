@@ -30,6 +30,25 @@ const restaurants = [
         "type": "Fast-Food",
         "rating": 4.0,
     },
+    {
+        "name": "Taco Bell",
+        "image": "https://i.ebayimg.com/images/g/rAYAAOSwKRBbEWd0/s-l1200.webp",
+        "type": "Fast-Food",
+        "rating": 3.6,
+    },
+    {
+        "name": "Sonic Drive-In",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/SONIC_New_Logo_2020.svg",
+        "type": "Fast-Food",
+        "rating": 3.9,
+    },
+    {
+        "name": "Popeyes Louisiana Kitchen",
+        "image": "https://pentagram-production.imgix.net/702b9844-190a-4d98-b95c-6b818fb6c3c6/djs_popeyes_01.jpg?rect=215%2C99%2C1671%2C1043&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
+        "type": "Fast-Food",
+        "rating": 3.5,
+    },
+    
 
     //Cafe
     {
@@ -88,7 +107,20 @@ const restaurants = [
         "type": "Casual",
         "rating": 3.7,
     },
+    {
+        "name": "Olive Garden",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaMdTCEFl1Fy4xoYtNEpZQoygmEDFUHs6dkA&s",
+        "type": "Casual",
+        "rating": 4.1,
+    },
+    {
+        "name": "Red Lobster",
+        "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Redlobster_logocopia.png",
+        "type": "Casual",
+        "rating": 3.8,
+    },
 
+    
     //Fancy
     {
         "name": "Ruth's Chris",
@@ -108,6 +140,7 @@ const restaurants = [
         "type": "Fancy",
         "rating": 4.9,
     },
+
 ]; 
 
 module.exports = restaurants; 
