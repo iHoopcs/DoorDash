@@ -1,3 +1,4 @@
+import { DetailedRestaurantComponent } from './pages/detailed-restaurant/detailed-restaurant.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
@@ -12,6 +13,7 @@ const routes: Routes = [
   {path:'cafe', component:CafeComponent},
   {path:'casual-dining', component:CasualComponent},
   {path:'fancy-dining', component:FancyComponent},
+  {path:'restaurant/:type/:name/:id', component:DetailedRestaurantComponent }
 ];
 
 @NgModule({

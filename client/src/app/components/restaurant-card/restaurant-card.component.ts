@@ -7,8 +7,9 @@ import { Input } from '@angular/core';
   styleUrl: './restaurant-card.component.css'
 })
 export class RestaurantCardComponent {
+  //retrieve from parent component
   @Input() restaurants: any; 
-  
+  @Input() restaurantHrefs: any; 
   constructor(){}
   
 }

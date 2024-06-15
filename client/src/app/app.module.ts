@@ -14,6 +14,7 @@ import { CafeComponent } from './pages/cafe/cafe.component';
 import { CasualComponent } from './pages/casual/casual.component';
 import { FancyComponent } from './pages/fancy/fancy.component';
 import { FoodCategoryIcon } from './components/food-category-icon/food-category-icon.component';
+import { DetailedRestaurantComponent } from './pages/detailed-restaurant/detailed-restaurant.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { FoodCategoryIcon } from './components/food-category-icon/food-category-
     CafeComponent,
     CasualComponent,
     FancyComponent,
+    DetailedRestaurantComponent,
 
   ],
   imports: [
