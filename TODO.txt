@@ -1,6 +1,6 @@
 Search restaurants
-Login & Signup 
-Restaurants -> Clickable links to individual pages
+Login (Find user and pull user data)
+Signup (Add Users to db)
 Implement restaurant specific menus for each individual page
 migrate to mongoDB database
 Footer -> flush to bottom 
