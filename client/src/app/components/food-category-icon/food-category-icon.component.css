@@ -1,0 +1,11 @@
+img {
+    height: 8vh;
+}
+
+a:hover{
+    color: red;
+}
+
+a{
+    color: black;
+}

@@ -7,9 +7,14 @@ import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RestaurantCardComponent } from './components/restaurant-card/restaurant-card.component';
-import { FoodItemCardComponent } from './components/food-item-card/food-item-card.component';
-import { FoodIconComponent } from './components/food-icon/food-icon.component';
 import { SubNavbarComponent } from './components/sub-navbar/sub-navbar.component';
+import { FastFoodsComponent } from './pages/fast-foods/fast-foods.component';
+import { HomeComponent } from './pages/home/home.component';
+import { CafeComponent } from './pages/cafe/cafe.component';
+import { CasualComponent } from './pages/casual/casual.component';
+import { FancyComponent } from './pages/fancy/fancy.component';
+import { FoodCategoryIcon } from './components/food-category-icon/food-category-icon.component';
+import { DetailedRestaurantComponent } from './pages/detailed-restaurant/detailed-restaurant.component';
 
 @NgModule({
   declarations: [
@@ -17,9 +22,14 @@ import { SubNavbarComponent } from './components/sub-navbar/sub-navbar.component
     NavbarComponent,
     FooterComponent,
     RestaurantCardComponent,
-    FoodItemCardComponent,
-    FoodIconComponent,
+    FoodCategoryIcon,
     SubNavbarComponent,
+    FastFoodsComponent,
+    HomeComponent,
+    CafeComponent,
+    CasualComponent,
+    FancyComponent,
+    DetailedRestaurantComponent,
 
   ],
   imports: [

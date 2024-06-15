@@ -1,5 +1,5 @@
-import { Component, NgModule } from '@angular/core';
-import { FetchRestaurantsService } from '../../services/restaurants/fetch-restaurants.service';
+import { Component } from '@angular/core';
+import { Input } from '@angular/core';
 
 @Component({
   selector: 'app-restaurant-card',
@@ -7,13 +7,9 @@ import { FetchRestaurantsService } from '../../services/restaurants/fetch-restau
   styleUrl: './restaurant-card.component.css'
 })
 export class RestaurantCardComponent {
-  restaurants: any = []; 
-
-  constructor(private http: FetchRestaurantsService) {
-    this.http.fetchRestaurants().subscribe((data) => {
-      this.restaurants = data; 
-      console.log(this.restaurants); 
-    })
-  }
+  //retrieve from parent component
+  @Input() restaurants: any; 
+  @Input() restaurantHrefs: any; 
+  constructor(){}
   
 }

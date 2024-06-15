@@ -18,7 +18,7 @@
 }
 
 img {
-    width: 25rem;
+    width: 20rem;
     height: 20vh;
 }
 
@@ -31,6 +31,10 @@ img {
 .rest-container {
     width: fit-content;
     
+}
+
+h5:hover {
+    color: red  ;
 }
 
 
