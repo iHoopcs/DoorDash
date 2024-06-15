@@ -1,14 +1,14 @@
-<div class="div mb-5 p-5 menu-item-container" *ngFor="let item of restaurant.menu">
+<div class="div mt-5 mb-5 p-5 menu-item-container" *ngFor="let item of restaurant.menu">
     <div class="row">
         <!--Menu Item Content-->
         <div class="col-9">
-            <h4>ItemName:{{item.itemName}}</h4>
-            <h5 class="text-muted">Description:{{item.itemDescription}}</h5>
+            <h4 class="mb-5 mt-3">{{item.itemName}}</h4>
+            <h5 class="text-muted">{{item.itemDescription}}</h5>
             <h5 class="text-muted">${{item.price}}</h5>
         </div>
         <!--Menu Item Image-->
         <div class="col-3">
-            <img src="https://s7d1.scene7.com/is/image/mcdonalds/Header_BigMac_832x472:1-3-product-tile-desktop?wid=763&hei=472&dpr=off"/>
+            <img src={{item.itemImg}}/>
         </div>
     </div>
     

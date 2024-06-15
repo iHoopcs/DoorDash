@@ -40,47 +40,6 @@ const restaurants = [
         ]
     },
     {
-        "id" : "2",
-        "name": "Burger King",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ--1MJsy7_DWpEDHBVdc8L7Vn-neqF-M_MyA&s",
-        "type": "Fast-Food",
-        "rating": 3.5,
-        "href": "restaurant/Fast-Food/Burger-King/2",
-        "hours":"6am - 12am",
-        "menu" : [
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 5.69,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-
-            
-        ]
-    },
-    {
         "id" : "3",
         "name": "Wendys",
         "image": "https://cdn.worldvectorlogo.com/logos/wendy-s-1.svg",
@@ -90,32 +49,32 @@ const restaurants = [
         "hours":"6:30am - 1am",
         "menu" : [
             {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 5.69,
-                "itemImg": "",
-                "calories": 590
+                "itemName": "Baconator",
+                "itemDescription": "A half-pound* of fresh beef, American cheese, 6 pieces of crispy Applewood smoked bacon, ketchup, and mayo. Carnivores rejoice!",
+                "price": 6.69,
+                "itemImg": "https://www.wendys.com/sites/default/files/styles/max_650x650/public/2021-05/baconator-144_medium_US_en.png?itok=H8sl3GsY",
+                "calories": 960
             },
             {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
+                "itemName": "10 PC. Spicy Chicken Nuggets",
+                "itemDescription": "100% white-meat chicken breaded and marinated in our unique, fiery blend of peppers and spices. Served with your choice of six dipping sauces including Buttermilk Ranch, BBQ, Sweet & Sour, Honey Mustard or Ghost Pepper Ranch. The Internet icon is back for a hot minute.",
+                "price": 3.75,
+                "itemImg": "https://www.usatoday.com/gcdn/presto/2019/05/06/USAT/54298852-924e-4e45-8c46-ffff2c17710a-4PcSpicyNuggets.jpg?crop=2915,3886,x1984,y0",
+                "calories": 470
             },
             {
-                "itemName": "",
-                "itemDescription": "",
+                "itemName": "Grilled Chicken Wrap",
+                "itemDescription": "Juicy, herb-marinated grilled chicken breast, shredded cheddar cheese and crispy romaine drizzled with a creamy ranch sauce and all wrapped up in a warm tortilla.",
                 "price": 0,
-                "itemImg": "",
-                "calories": 590
+                "itemImg": "https://www.wendys.tt/wp-content/uploads/2023/09/299_medium_US_en-e1694013069762.png",
+                "calories": 420
             },
             {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
+                "itemName": "Classic Chocalate Frosty",
+                "itemDescription": "The Chocolate Frosty® was born out of Dave’s desire for a signature dessert to go with his vision of the perfect meal. Thick enough to use a spoon, smooth enough to use a straw, and perfect when enjoyed on the end of a fry.",
+                "price": 3.00,
+                "itemImg": "https://www.wendys.com/sites/default/files/styles/max_650x650/public/2021-05/jr-chocolate-frosty-37_medium_US_en.png?itok=Ea5g2v80",
+                "calories": 310
             },
 
             
@@ -131,32 +90,32 @@ const restaurants = [
         "hours":"6am - 10pm",
         "menu" : [
             {
-                "itemName": "",
-                "itemDescription": "",
+                "itemName": "Spicy Chicken Sandwich",
+                "itemDescription": "A boneless breast of chicken seasoned with a spicy blend of peppers, freshly breaded, pressure cooked in 100% refined peanut oil and served on a toasted, buttered bun with dill pickle chips. Also available on a multigrain bun.",
                 "price": 5.69,
-                "itemImg": "",
-                "calories": 590
+                "itemImg": "https://www.cfacdn.com/img/order/menu/Online/Entrees/CFASpicySandwich_1080.png",
+                "calories": 450
             },
             {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
+                "itemName": "Chick-fil-A Nuggets",
+                "itemDescription": "Bite-sized pieces of boneless chicken breast, seasoned to perfection, freshly breaded and pressure cooked in 100% refined peanut oil. Available with choice of dipping sauce.",
+                "price": 5.50,
+                "itemImg": "https://d1fd34dzzl09j.cloudfront.net/Images/CFACOM/PLP%20updates/Nuggets/CFA2305029_Holiday23_Nuggets_PLP_D_904x666.jpg?h=666&w=904&la=en",
+                "calories": 250
             },
             {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
+                "itemName": "Grilled Nuggets",
+                "itemDescription": "Bite-sized pieces of freshly marinated boneless breast of chicken, grilled for a tender and juicy backyard-smoky taste. Available with guest's choice of dipping sauce.",
+                "price": 4.00,
+                "itemImg": "https://www.cfacdn.com/img/order/menu/Online/Entrees/grilledNuggets_8ct_PDP.png",
+                "calories": 130
             },
             {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
+                "itemName": "Chick-fil-A Waffle Fries",
+                "itemDescription": "Waffle-cut potatoes cooked in canola oil until crispy outside and tender inside. Sprinkled with Sea Salt.",
+                "price": 3.70,
+                "itemImg": "https://d1fd34dzzl09j.cloudfront.net/Images/CFACOM/PLP%20updates/Waffle%20Fries/CFA14300_Winter24_MediumFries_PLP_Hero_D_710x580.jpg_master.jpg?h=580&w=710&la=en",
+                "calories": 420
             },
 
             
@@ -203,139 +162,8 @@ const restaurants = [
             
         ]
     },
-    {
-        "id" : "6",
-        "name": "Taco Bell",
-        "image": "https://i.ebayimg.com/images/g/rAYAAOSwKRBbEWd0/s-l1200.webp",
-        "type": "Fast-Food",
-        "rating": 3.6,
-        "href": "restaurant/Fast-Food/Taco-Bell/6",
-        "hours":"8am - 3am","menu" : [
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 5.69,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-
-            
-        ]
-    },
-    {
-        "id" : "7",
-        "name": "Sonic Drive-In",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/SONIC_New_Logo_2020.svg",
-        "type": "Fast-Food",
-        "rating": 3.9,
-        "href": "restaurant/Fast-Food/Taco-Bell/7",
-        "hours":"10am - 10pm",
-        "menu" : [
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 5.69,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-
-            
-        ]
-    },
-    {
-        "id" : "8",
-        "name": "Popeyes Louisiana Kitchen",
-        "image": "https://pentagram-production.imgix.net/702b9844-190a-4d98-b95c-6b818fb6c3c6/djs_popeyes_01.jpg?rect=215%2C99%2C1671%2C1043&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
-        "type": "Fast-Food",
-        "rating": 3.5,
-        "href": "restaurant/Fast-Food/Taco-Bell/8",
-        "hours":"",
-        "menu" : [
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 5.69,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-
-            
-        ]
-    },
     
     //Cafe
-    {
-        "id" : "9",
-        "name": "Panera Bread",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Panera_Bread_wordmark.svg/2560px-Panera_Bread_wordmark.svg.png",
-        "type": "Cafe",
-        "rating": 3.6,
-        "href": "restaurant/Cafe/Panera-Bread/9",
-        "hours":"6am - 9pm",
-    },
     {
         "id" : "10",
         "name": "Starbucks",
@@ -356,15 +184,6 @@ const restaurants = [
     },
 
     //Casual
-    {
-        "id" : "12",
-        "name": "Kickback Jacks",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS0CpFJL1QBSc0ioWh0snpeVvI7_KI_RCVeg&s",
-        "type": "Casual",
-        "rating": 3.5,
-        "href": "restaurant/Casual/Kickback-Jacks/12",
-        "hours":"11am - 12am",
-    },
     {
         "id" : "13",
         "name": "Chillis",
@@ -401,63 +220,9 @@ const restaurants = [
         "href": "restaurant/Casual/Longhorns/16",
         "hours":"11am - 11pm",
     },
-    {
-        "id" : "17",
-        "name": "Texas Roadhouse",
-        "image": "https://seekvectors.com/files/download/texas-roadhouse.png",
-        "type": "Casual",
-        "rating": 3.7,
-        "href": "restaurant/Casual/Texas-Roadhouse/17",
-        "hours":"12pm - 11pm",
-    },
-    {
-        "id" : "18",
-        "name": "Olive Garden",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaMdTCEFl1Fy4xoYtNEpZQoygmEDFUHs6dkA&s",
-        "type": "Casual",
-        "rating": 4.1,
-        "href": "restaurant/Casual/Olive-Garden/18",
-        "hours":"11am - 11pm",
-    },
-    {
-        "id" : "19",
-        "name": "Red Lobster",
-        "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Redlobster_logocopia.png",
-        "type": "Casual",
-        "rating": 3.8,
-        "href": "restaurant/Casual/Red-Lobsters/19",
-        "hours":"11am - 11pm",
-    },
 
     
     //Fancy
-    {
-        "id" : "20",
-        "name": "Ruth's Chris",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Ruths_Chris_Logo.svg/1200px-Ruths_Chris_Logo.svg.png",
-        "type": "Fancy",
-        "rating": 4.8,
-        "href": "restaurant/Fancy/Ruths-Chris/20",
-        "hours":"4pm - 11pm",
-    },
-    {
-        "id" : "21",
-        "name": "Fleming's",
-        "image": "https://vectorlogoseek.com/wp-content/uploads/2018/09/flemings-prime-steakhouse-wine-bar-vector-logo.png",
-        "type": "Fancy",
-        "rating": 5.0,
-        "href": "restaurant/Fancy/Flemings/21",
-        "hours":"2pm - 10pm",
-    },
-    {
-        "id" : "22",
-        "name": "Texas de Brazil",
-        "image": "https://logovtor.com/wp-content/uploads/2021/04/texas-de-brazil-logo-vector.png",
-        "type": "Fancy",
-        "rating": 4.9,
-        "href": "restaurant/Fancy/Texas-de-Brazil/22",
-        "hours":"5pm - 10pm",
-    },
     {
         "id" : "23",
         "name": "Benihana",
