@@ -7,12 +7,13 @@ import { FetchFastFoodsService } from '../../services/fast-food/fetch-fast-foods
   styleUrl: './fast-foods.component.css'
 })
 export class FastFoodsComponent {
-  restaurants: any = []; 
+  restaurants: any = [];  
+  constructor(private http: FetchFastFoodsService){}
 
-  constructor(private http: FetchFastFoodsService){
+  ngOnInit():void {
     this.http.fetchFastFoodPlaces().subscribe((data) => {
       this.restaurants = data; 
       console.log(this.restaurants); 
-    })
+    }); 
   }
 }

@@ -8,11 +8,14 @@ import { FetchCafesService } from '../../services/cafe/fetch-cafes.service';
 })
 export class CafeComponent {
   restaurants: any = []; 
+  constructor(private http: FetchCafesService){}
 
-  constructor(private http: FetchCafesService) {
+  ngOnInit():void {
     this.http.fetchCafes().subscribe((data) => {
       this.restaurants = data; 
       console.log(this.restaurants); 
-    })
+    }); 
   }
+
+
 }

@@ -1,0 +1,15 @@
+<div class="div mt-5 mb-5 p-5 menu-item-container" *ngFor="let item of restaurant.menu">
+    <div class="row">
+        <!--Menu Item Content-->
+        <div class="col-9">
+            <h4 class="mb-5 mt-3">{{item.itemName}}</h4>
+            <h5 class="text-muted">{{item.itemDescription}}</h5>
+            <h5 class="text-muted">${{item.price}}</h5>
+        </div>
+        <!--Menu Item Image-->
+        <div class="col-3">
+            <img src={{item.itemImg}}/>
+        </div>
+    </div>
+    
+</div>

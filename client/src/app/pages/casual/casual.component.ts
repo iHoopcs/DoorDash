@@ -7,12 +7,13 @@ import { FetchCasualsService } from '../../services/casual/fetch-casuals.service
   styleUrl: './casual.component.css'
 })
 export class CasualComponent {
-  restaurants: any = []; 
+  restaurants: any = [];  
+  constructor(private http: FetchCasualsService){}
 
-  constructor(private http: FetchCasualsService) {
+  ngOnInit():void {
     this.http.fetchCasualFoodPlaces().subscribe((data) => {
       this.restaurants = data; 
-      console.log(this.restaurants); 
-    })
+      console.log(this.restaurants);  
+    }); 
   }
 }

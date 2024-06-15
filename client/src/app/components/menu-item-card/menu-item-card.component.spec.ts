@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FancyComponent } from './fancy.component';
+import { MenuItemCardComponent } from './menu-item-card.component';
 
-describe('FancyComponent', () => {
-  let component: FancyComponent;
-  let fixture: ComponentFixture<FancyComponent>;
+describe('MenuItemCardComponent', () => {
+  let component: MenuItemCardComponent;
+  let fixture: ComponentFixture<MenuItemCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [FancyComponent]
+      declarations: [MenuItemCardComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FancyComponent);
+    fixture = TestBed.createComponent(MenuItemCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
