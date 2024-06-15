@@ -131,35 +131,33 @@ const restaurants = [
         "hours":"10:30am - 11pm",
         "menu" : [
             {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 5.69,
-                "itemImg": "",
-                "calories": 590
+                "itemName": "Chicken Finger Plate - 6 Fingerz w/ fries & drink",
+                "itemDescription": "6 hand-breaded Chicken Fingerz™ with Zax Sauce®. Served with Cole Slaw, Texas Toast, Crinkle Fries, and Small Drink.",
+                "price": 15.83,
+                "itemImg": "https://olo-images-live.imgix.net/d5/d5e6c331298a485c8ef51542401e561f.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=a62e376c0bddbd07d1e394ecec4cc036",
+                "calories": 1700
             },
             {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
+                "itemName": "Boneless Wings & Things",
+                "itemDescription": "5 Boneless Wings made from all-white breast meat tossed in your choice of sauce with Ranch and 3 Chicken Fingerz™ with Zax Sauce®. Served with Texas Toast, Crinkle Fries, and Small Drink.",
+                "price": 15.56,
+                "itemImg": "https://olo-images-live.imgix.net/35/35fbf9d8fb7541358519ecf1dbf2d5fd.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=f7f29c9f46a60c6b838f62ed872f844e",
+                "calories": 1900
             },
             {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
+                "itemName": "Kickin Chicken Sandwich",
+                "itemDescription": "Hand-breaded Chicken Fingerz™, Tongue Torch®, and Ranch on Texas Toast. Served with Crinkle Fries and Small Drink.",
+                "price": 10.41,
+                "itemImg": "https://olo-images-live.imgix.net/2a/2a2be38977314e47aa369ae2a39bd77b.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=9362fc49d137b0e20b2e079b46ac7e3a",
+                "calories": 1200
             },
             {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 590
-            },
-
-            
+                "itemName": "Chicken Bacon Ranch Loaded Fries",
+                "itemDescription": "A generous portion of Crinkle Fries topped with hand-breaded Fried Chicken, Cheddar Jack cheese, natural hardwood smoked bacon, and Ranch.",
+                "price": 10.55,
+                "itemImg": "https://olo-images-live.imgix.net/b9/b9496791fc634ad98825476d20f32fa3.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=cdd1ab0a5b29a97f5d90562ef9f3a8f1",
+                "calories": 1310
+            },            
         ]
     },
     
@@ -172,15 +170,38 @@ const restaurants = [
         "rating": 4.3,
         "href": "restaurant/Cafe/Starbucks/10",
         "hours":"6am - 8pm",
-    },
-    {
-        "id" : "11",
-        "name": "Dunkin Donuts",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dunkin%27_Donuts.svg",
-        "type": "Cafe",
-        "rating": 2.9,
-        "href": "restaurant/Cafe/Dunkin-Donuts/11",
-        "hours":"5am - 9pm",
+        "menu" : [
+            {
+                "itemName": "Caramel Ribbon Crunch Frappuccino® Blended Beverage",
+                "itemDescription": "Buttery caramel syrup blended with coffee, milk and ice, then topped with a layer of dark caramel sauce, whipped cream, caramel drizzle and a crunchy caramel-sugar topping—oh-so-beautifully delicious.",
+                "price": 6.75,
+                "itemImg": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20211210_CaramelRibbonCrunchFrapp.jpg?impolicy=1by1_wide_topcrop_630",
+                "calories": null
+            },
+            {
+                "itemName": "Double-Smoked Bacon, Cheddar & Egg Sandwich",
+                "itemDescription": "Bacon smoked for six hours over hickory wood chips, stacked with a cage-free fried egg, topped with a melted slice of sharp Cheddar cheese—all on our signature croissant bun.",
+                "price": 6.95,
+                "itemImg": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20210915_BaconCheddarEggSandwich.jpg?impolicy=1by1_medium_630",
+                "calories": null
+            },
+            {
+                "itemName": "Iced White Chocalate Mocha",
+                "itemDescription": "Our signature espresso meets white chocolate sauce, milk and ice, and then is finished off with sweetened whipped cream to create this supreme white chocolate delight.",
+                "price": 6.55,
+                "itemImg": "https://globalassets.starbucks.com/digitalassets/products/bev/SBX20190607_IcedWhiteChocolateMocha.jpg?impolicy=1by1_wide_topcrop_630",
+                "calories": null
+            },
+            {
+                "itemName": "Birthday Cake Pop",
+                "itemDescription": "Bite-sized vanilla cake mixed with vanilla buttercream, dipped in pink chocolaty icing and topped with white sprinkles.",
+                "price": 4.15,
+                "itemImg": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20181129_BirthdayCakePop.jpg?impolicy=1by1_medium_630",
+                "calories": null
+            },
+
+            
+        ]
     },
 
     //Casual
@@ -192,6 +213,36 @@ const restaurants = [
         "rating": 3.8,
         "href": "restaurant/Casual/Chillis/13",
         "hours":"11am - 11pm",
+        "menu" : [
+            {
+                "itemName": "Triple Dipper®",
+                "itemDescription": "Select three appetizers and enjoy! Served with dipping sauces.",
+                "price": 18.09,
+                "itemImg": "https://olo-images-live.imgix.net/3b/3bd44fb528794fc19adb4279b6bb822a.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=c7dbaad44341341dda31ac7df9985440",
+                "calories": null
+            },
+            {
+                "itemName": "Bone-In Wings",
+                "itemDescription": "Our classic, crispy wings are hand-tossed with your choice of 2 flavors and 2 sides of house-made ranch.",
+                "price": 19.79,
+                "itemImg": "https://olo-images-live.imgix.net/a2/a2f3e7e159424aafb81d77e244ca2f8f.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=c206b1670daaa81bd425bcecffd525be",
+                "calories": null
+            },
+            {
+                "itemName": "Fried Mozzarella - Shareable",
+                "itemDescription": "6 count. Served with Marinara sauce.",
+                "price": 15.69,
+                "itemImg": "https://olo-images-live.imgix.net/a0/a0feb3bc5bed4032bd246a9657221e92.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=663a012be9d12701fb9a6116cb7ee70d",
+                "calories": 590
+            },
+            {
+                "itemName": "Southwestern Eggrolls",
+                "itemDescription": "Crispy flour tortillas, chicken, black beans, corn, jalapeño Jack cheese, red peppers, spinach. Served with avocado-ranch.",
+                "price": 14.19,
+                "itemImg": "https://olo-images-live.imgix.net/b1/b14a756573254ac2ba168d4346796065.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=5928a036a9e1bd8583f1b040c63f2aff",
+                "calories": null
+            },   
+        ]
     },
     {
         "id" : "14",
@@ -201,38 +252,37 @@ const restaurants = [
         "rating": 2.7,
         "href": "restaurant/Casual/Applebees/14",
         "hours":"11am - 12am",
+        "menu" : [
+            {
+                "itemName": "Bourbon Street Chicken & Shrimp",
+                "itemDescription": "Cajun-seasoned chicken and blackened shrimp jazzed up with Cajun spices in buttery garlic and parsley, served sizzling with sautéed mushrooms & onions and garlic mashed potatoes.",
+                "price": 19.55,
+                "itemImg": "https://olo-images-live.imgix.net/da/da53e0694b8a4aea8c2737187ba9a3ab.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=0217bf8ff404ed3997be4b56f88161e6",
+                "calories": 790
+            },
+            {
+                "itemName": "Classic Broccoli Chicken Alfredo",
+                "itemDescription": "A neighborhood favorite. Juicy grilled chicken is served warm on a bed of fettuccine pasta tossed with broccoli and rich Alfredo sauce topped with Parmesan cheese. Served with a golden brown signature breadstick brushed with buttery garlic and parsley.",
+                "price": 18.09,
+                "itemImg": "https://olo-images-live.imgix.net/96/96050f4ce2d040d19526703837bebf8b.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=7c391a3217deaf4dd29594e989ae55fe",
+                "calories": 1390
+            },
+            {
+                "itemName": "Four-Cheese Mac & Cheese with Honey Pepper Chicken Tenders",
+                "itemDescription": "A sweet and savory take on comfort food, four-cheese penne mac & cheese is topped with Applewood-smoked bacon and crispy chicken tenders tossed in honey pepper sauce. Served with a golden brown signature breadstick brushed with buttery garlic and parsley.",
+                "price": 18.30,
+                "itemImg": "https://olo-images-live.imgix.net/6a/6ac16be4295c431b824ab5ec4d7c4961.jpeg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=dd8f2d0883a05635bd1053ad5b289259",
+                "calories": null
+            },
+            {
+                "itemName": "Triple Chocalate Metldown",
+                "itemDescription": "Warm, rich, fudge-filled chocolate cake is drizzled with hot fudge. Served with vanilla ice cream.",
+                "price": 9.75,
+                "itemImg": "https://olo-images-live.imgix.net/9e/9e32e2941b5249e484499a9e08516878.jpeg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=7a75bb3ee5fb64091d655a5d8ec73d17",
+                "calories": 850
+            }, 
+        ]
     },
-    {
-        "id" : "15",
-        "name": "Fridays",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tgi_fridays_logo13.svg/1200px-Tgi_fridays_logo13.svg.png",
-        "type": "Casual",
-        "rating": 2.5,
-        "href": "restaurant/Casual/Fridays/15",
-        "hours":"11am - 11pm",
-    },
-    {
-        "id" : "16",
-        "name": "Longhorns",
-        "image": "https://images.squarespace-cdn.com/content/v1/636db4f3e37a167a94db14d7/59f23586-8069-45e2-a725-f3f73ddbfb7a/Longhorn-Steakhouse-1108x894.png",
-        "type": "Casual",
-        "rating": 4.0,
-        "href": "restaurant/Casual/Longhorns/16",
-        "hours":"11am - 11pm",
-    },
-
-    
-    //Fancy
-    {
-        "id" : "23",
-        "name": "Benihana",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5NlGzaKQu8bjzNhOe6GtpppCBM5r3_tVC-A&s",
-        "type": "Fancy",
-        "rating": 5.0,
-        "href": "restaurant/Fancy/Benihana/23",
-        "hours":"10am - 11pm",
-    },
-
 ]; 
 
 module.exports = restaurants; 
