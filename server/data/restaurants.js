@@ -36,9 +36,7 @@ const restaurants = [
                 "price": 3.89,
                 "itemImg": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202002_6053_LargeFries_832x472:nutrition-calculator-tile?resmode=sharp2",
                 "calories": 230
-            },
-
-            
+            }, 
         ]
     },
     {

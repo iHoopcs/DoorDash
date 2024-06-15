@@ -22,13 +22,13 @@ export class DetailedRestaurantComponent {
       
       let fetchedRestaurants:any = []; 
       fetchedRestaurants = data; 
-      console.log('DB',fetchedRestaurants); 
+      console.log('DB',typeof(fetchedRestaurants), fetchedRestaurants); 
 
       //match param type,name,id of active url to find restaurant in db
       fetchedRestaurants.forEach((dbItem:any) => {
         if (paramType === dbItem.type && paramName === dbItem.name && paramId === dbItem.id){
           this.restaurant = dbItem;
-          console.log(this.restaurant) 
+          //console.log('Fetched',this.restaurant) 
         }
       })
     });  
