@@ -1,4 +1,27 @@
 <app-navbar></app-navbar>
-    <div class="container">
-        
-</div>
+    <div class="container mt-5">
+        <!--Restaurant Image & Description-->
+            <img src={{restaurant.image}} class="restaurant-image"/>
+            <!--Align Inside container of left side using col/row-->
+            <div class="col description">
+                <div class="row">
+                    <h3 class="mt-3">{{restaurant.name}}</h3>
+                    <h5 class="mb-5">{{restaurant.rating}}<img class="rating-icon mb-2 mx-1" src="https://www.svgrepo.com/show/304546/star-filled.svg"/></h5> 
+                </div>
+
+                <div class="row mt-5">
+                    <h4 class="mt-5">Rating & Reviews</h4>
+                    <div class="rating-reviews p-5 mb-5">
+                        <!--TODO-->
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <h4 class="mt-5">Full Menu</h4>
+                    <h5></h5>
+                </div>
+            </div>
+
+            
+                
+    </div>
