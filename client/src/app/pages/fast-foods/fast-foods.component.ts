@@ -8,11 +8,18 @@ import { FetchFastFoodsService } from '../../services/fast-food/fetch-fast-foods
 })
 export class FastFoodsComponent {
   restaurants: any = []; 
+  restaurantHrefs: string[] = []; 
+  constructor(private http: FetchFastFoodsService){}
 
-  constructor(private http: FetchFastFoodsService){
+  ngOnInit():void {
     this.http.fetchFastFoodPlaces().subscribe((data) => {
       this.restaurants = data; 
       console.log(this.restaurants); 
-    })
+
+      this.restaurants.forEach((rest: any) => {
+        this.restaurantHrefs.push(`http://localhost:4200/restaurant/${rest.type}/${rest.name}/${rest.id}`)
+      })
+      console.log(this.restaurantHrefs); 
+    }); 
   }
 }
