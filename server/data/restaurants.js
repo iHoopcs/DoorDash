@@ -6,7 +6,7 @@ const restaurants = [
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/McDonald%27s_logo.svg/1014px-McDonald%27s_logo.svg.png",
         "type": "Fast-Food",
         "rating": 3.0,
-        "href": "/Fast-Food/McDonalds/1"
+        "href": "restaurant/Fast-Food/McDonalds/1"
     },
     {
         "id" : 2,
@@ -14,7 +14,7 @@ const restaurants = [
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ--1MJsy7_DWpEDHBVdc8L7Vn-neqF-M_MyA&s",
         "type": "Fast-Food",
         "rating": 3.5,
-        "href": "/Fast-Food/Burger-King/2"
+        "href": "restaurant/Fast-Food/Burger-King/2"
     },
     {
         "id" : 3,
@@ -22,7 +22,7 @@ const restaurants = [
         "image": "https://cdn.worldvectorlogo.com/logos/wendy-s-1.svg",
         "type": "Fast-Food",
         "rating": 3.9,
-        "href": "/Fast-Food/Wendys/3"
+        "href": "restaurant/Fast-Food/Wendys/3"
     },
     {
         "id" : 4,
@@ -30,7 +30,7 @@ const restaurants = [
         "image": "https://upload.wikimedia.org/wikipedia/commons/0/02/Chick-fil-A_Logo.svg",
         "type": "Fast-Food",
         "rating": 4.3,
-        "href": "/Fast-Food/Chick-fil-a/4"
+        "href": "restaurant/Fast-Food/Chick-fil-a/4"
     },
     {
         "id" : 5,
@@ -38,7 +38,7 @@ const restaurants = [
         "image": "https://seeklogo.com/images/Z/zaxbys-logo-87B61920F0-seeklogo.com.png",
         "type": "Fast-Food",
         "rating": 4.0,
-        "href": "/Fast-Food/Zaxbys/5"
+        "href": "restaurant/Fast-Food/Zaxbys/5"
     },
     {
         "id" : 6,
@@ -46,7 +46,7 @@ const restaurants = [
         "image": "https://i.ebayimg.com/images/g/rAYAAOSwKRBbEWd0/s-l1200.webp",
         "type": "Fast-Food",
         "rating": 3.6,
-        "href": "/Fast-Food/Taco-Bell/6"
+        "href": "restaurant/Fast-Food/Taco-Bell/6"
     },
     {
         "id" : 7,
@@ -54,7 +54,7 @@ const restaurants = [
         "image": "https://upload.wikimedia.org/wikipedia/commons/f/ff/SONIC_New_Logo_2020.svg",
         "type": "Fast-Food",
         "rating": 3.9,
-        "href": "/Fast-Food/Taco-Bell/7"
+        "href": "restaurant/Fast-Food/Taco-Bell/7"
     },
     {
         "id" : 8,
@@ -62,7 +62,7 @@ const restaurants = [
         "image": "https://pentagram-production.imgix.net/702b9844-190a-4d98-b95c-6b818fb6c3c6/djs_popeyes_01.jpg?rect=215%2C99%2C1671%2C1043&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548",
         "type": "Fast-Food",
         "rating": 3.5,
-        "href": "/Fast-Food/Taco-Bell/8"
+        "href": "restaurant/Fast-Food/Taco-Bell/8"
     },
     
     //Cafe
@@ -72,7 +72,7 @@ const restaurants = [
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Panera_Bread_wordmark.svg/2560px-Panera_Bread_wordmark.svg.png",
         "type": "Cafe",
         "rating": 3.6,
-        "href": "/Cafe/Panera-Bread/9"
+        "href": "restaurant/Cafe/Panera-Bread/9"
     },
     {
         "id" : 10,
@@ -80,7 +80,7 @@ const restaurants = [
         "image": "https://lh4.googleusercontent.com/proxy/mjIXRAh7E1sNC42fIh9lyM3P5PWhUECllWKUTruQ63ZR8RkqPBR_o1CUUqnCylLrz9WsCDyNxMI2bzzHOc3rDpdMrYnO-OB_56tVd7N86uT7fvEsVeogP5lWZ7huzezWduuZqih859I-WdI3JPKHtFVdjDk",
         "type": "Cafe",
         "rating": 4.3,
-        "href": "/Cafe/Starbucks/10"
+        "href": "restaurant/Cafe/Starbucks/10"
     },
     {
         "id" : 11,
@@ -88,7 +88,7 @@ const restaurants = [
         "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Dunkin%27_Donuts.svg",
         "type": "Cafe",
         "rating": 2.9,
-        "href": "/Cafe/Dunkin-Donuts/11"
+        "href": "restaurant/Cafe/Dunkin-Donuts/11"
     },
 
     //Casual
@@ -98,7 +98,7 @@ const restaurants = [
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSS0CpFJL1QBSc0ioWh0snpeVvI7_KI_RCVeg&s",
         "type": "Casual",
         "rating": 3.5,
-        "href": "/Casual/Kickback-Jacks/12"
+        "href": "restaurant/Casual/Kickback-Jacks/12"
     },
     {
         "id" : 13,
@@ -106,7 +106,7 @@ const restaurants = [
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Chili%27s_Logo.svg/1200px-Chili%27s_Logo.svg.png",
         "type": "Casual",
         "rating": 3.8,
-        "href": "/Casual/Chillis/13"
+        "href": "restaurant/Casual/Chillis/13"
     },
     {
         "id" : 14,
@@ -114,7 +114,7 @@ const restaurants = [
         "image": "https://download.logo.wine/logo/Applebee's/Applebee's-Logo.wine.png",
         "type": "Casual",
         "rating": 2.7,
-        "href": "/Casual/Applebees/14"
+        "href": "restaurant/Casual/Applebees/14"
     },
     {
         "id" : 15,
@@ -122,7 +122,7 @@ const restaurants = [
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Tgi_fridays_logo13.svg/1200px-Tgi_fridays_logo13.svg.png",
         "type": "Casual",
         "rating": 2.5,
-        "href": "/Casual/Fridays/15"
+        "href": "restaurant/Casual/Fridays/15"
     },
     {
         "id" : 16,
@@ -130,7 +130,7 @@ const restaurants = [
         "image": "https://images.squarespace-cdn.com/content/v1/636db4f3e37a167a94db14d7/59f23586-8069-45e2-a725-f3f73ddbfb7a/Longhorn-Steakhouse-1108x894.png",
         "type": "Casual",
         "rating": 4.0,
-        "href": "/Casual/Longhorns/16"
+        "href": "restaurant/Casual/Longhorns/16"
     },
     {
         "id" : 17,
@@ -138,7 +138,7 @@ const restaurants = [
         "image": "https://seekvectors.com/files/download/texas-roadhouse.png",
         "type": "Casual",
         "rating": 3.7,
-        "href": "/Casual/Texas-Roadhouse/17"
+        "href": "restaurant/Casual/Texas-Roadhouse/17"
     },
     {
         "id" : 18,
@@ -146,7 +146,7 @@ const restaurants = [
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaMdTCEFl1Fy4xoYtNEpZQoygmEDFUHs6dkA&s",
         "type": "Casual",
         "rating": 4.1,
-        "href": "/Casual/Olive-Garden/18"
+        "href": "restaurant/Casual/Olive-Garden/18"
     },
     {
         "id" : 19,
@@ -154,7 +154,7 @@ const restaurants = [
         "image": "https://upload.wikimedia.org/wikipedia/en/b/b1/Redlobster_logocopia.png",
         "type": "Casual",
         "rating": 3.8,
-        "href": "/Casual/Red-Lobsters/19"
+        "href": "restaurant/Casual/Red-Lobsters/19"
     },
 
     
@@ -165,7 +165,7 @@ const restaurants = [
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Ruths_Chris_Logo.svg/1200px-Ruths_Chris_Logo.svg.png",
         "type": "Fancy",
         "rating": 4.8,
-        "href": "/Fancy/Ruths-Chris/20"
+        "href": "restaurant/Fancy/Ruths-Chris/20"
     },
     {
         "id" : 21,
@@ -173,7 +173,7 @@ const restaurants = [
         "image": "https://vectorlogoseek.com/wp-content/uploads/2018/09/flemings-prime-steakhouse-wine-bar-vector-logo.png",
         "type": "Fancy",
         "rating": 5.0,
-        "href": "/Fancy/Flemings/21"
+        "href": "restaurant/Fancy/Flemings/21"
     },
     {
         "id" : 22,
@@ -181,7 +181,7 @@ const restaurants = [
         "image": "https://logovtor.com/wp-content/uploads/2021/04/texas-de-brazil-logo-vector.png",
         "type": "Fancy",
         "rating": 4.9,
-        "href": "/Fancy/Texas-de-Brazil/22"
+        "href": "restaurant/Fancy/Texas-de-Brazil/22"
     },
     {
         "id" : 23,
@@ -189,7 +189,7 @@ const restaurants = [
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5NlGzaKQu8bjzNhOe6GtpppCBM5r3_tVC-A&s",
         "type": "Fancy",
         "rating": 5.0,
-        "href": "/Fancy/Benihana/23"
+        "href": "restaurant/Fancy/Benihana/23"
     },
 
 ]; 

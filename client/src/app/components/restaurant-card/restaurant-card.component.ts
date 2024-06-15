@@ -9,7 +9,6 @@ import { Input } from '@angular/core';
 export class RestaurantCardComponent {
   //retrieve from parent component
   @Input() restaurants: any; 
-  @Input() restaurantHrefs: any; 
   constructor(){}
   
 }
