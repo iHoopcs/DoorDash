@@ -37,6 +37,28 @@ const restaurants = [
                 "itemImg": "https://s7d1.scene7.com/is/image/mcdonalds/DC_202002_6053_LargeFries_832x472:nutrition-calculator-tile?resmode=sharp2",
                 "calories": 230
             }, 
+        ],
+        "reviews": [
+            {
+                "customer": "John B.",
+                "review": "My meal was hot and fresh.    Best experience I've had from a fast food place."
+            },
+            {
+                "customer": "Kirsten W.",
+                "review": "Everything I ordered was provided and delivered hot, fresh and packaged very nicely and cleanly!"
+            },
+            {
+                "customer": "Jayson S.",
+                "review": "Big Mac was amazing. Order was right to the t!"
+            },
+            {
+                "customer": "Johnny M.",
+                "review": "Everything tasted very well. Customer service was solid"
+            },
+            {
+                "customer": "Madelyn M.",
+                "review": "Customer service was solid"
+            }
         ]
     },
     {
@@ -78,6 +100,28 @@ const restaurants = [
             },
 
             
+        ],
+        "reviews": [
+            {
+                "customer": "Maria S",
+                "review": "Food fresh, hot and very fast "
+            },
+            {
+                "customer": "Gerald D.",
+                "review": "Food always come hot. Food very good and orders from this Wendy's  restaurant is on time."
+            },
+            {
+                "customer": "Valerie W.",
+                "review": "I never have a problem here. I place orders at work to pick up 3 hours in advance they are always hot and ready for me when I get them"
+            },
+            {
+                "customer": "Johnny M.",
+                "review": "Everything tasted very well. Customer service was solid"
+            },
+            {
+                "customer": "Madelyn M.",
+                "review": "Customer service was solid"
+            }
         ]
     },
     {
@@ -116,9 +160,29 @@ const restaurants = [
                 "price": 3.70,
                 "itemImg": "https://d1fd34dzzl09j.cloudfront.net/Images/CFACOM/PLP%20updates/Waffle%20Fries/CFA14300_Winter24_MediumFries_PLP_Hero_D_710x580.jpg_master.jpg?h=580&w=710&la=en",
                 "calories": 420
+            }, 
+        ],
+        "reviews": [
+            {
+                "customer": "Maria S",
+                "review": "Food fresh, hot and very fast "
             },
-
-            
+            {
+                "customer": "Gerald D.",
+                "review": "Food always come hot. Food very good and orders from this Wendy's  restaurant is on time."
+            },
+            {
+                "customer": "Valerie W.",
+                "review": "I never have a problem here. I place orders at work to pick up 3 hours in advance they are always hot and ready for me when I get them"
+            },
+            {
+                "customer": "Johnny M.",
+                "review": "Everything tasted very well. Customer service was solid"
+            },
+            {
+                "customer": "Madelyn M.",
+                "review": "Customer service was solid"
+            }
         ]
     },
     {
@@ -158,6 +222,20 @@ const restaurants = [
                 "itemImg": "https://olo-images-live.imgix.net/b9/b9496791fc634ad98825476d20f32fa3.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=cdd1ab0a5b29a97f5d90562ef9f3a8f1",
                 "calories": 1310
             },            
+        ],
+        "reviews": [
+            {
+                "customer": "Fatima S",
+                "review": "Food fresh, hot and very fast "
+            },
+            {
+                "customer": "Sarah D.",
+                "review": "Food always come hot. Food very good and orders from this Wendy's  restaurant is on time."
+            },
+            {
+                "customer": "Stuart W.",
+                "review": "I never have a problem here. I place orders at work to pick up 3 hours in advance they are always hot and ready for me when I get them"
+            },
         ]
     },
     
@@ -199,8 +277,20 @@ const restaurants = [
                 "itemImg": "https://globalassets.starbucks.com/digitalassets/products/food/SBX20181129_BirthdayCakePop.jpg?impolicy=1by1_medium_630",
                 "calories": null
             },
-
-            
+        ],
+        "reviews": [
+            {
+                "customer": "Maria S",
+                "review": "Food fresh, hot and very fast "
+            },
+            {
+                "customer": "Gerald D.",
+                "review": "Food always come hot. Food very good and orders from this Wendy's  restaurant is on time."
+            },
+            {
+                "customer": "Valerie W.",
+                "review": "I never have a problem here. I place orders at work to pick up 3 hours in advance they are always hot and ready for me when I get them"
+            },
         ]
     },
 
@@ -242,6 +332,20 @@ const restaurants = [
                 "itemImg": "https://olo-images-live.imgix.net/b1/b14a756573254ac2ba168d4346796065.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=5928a036a9e1bd8583f1b040c63f2aff",
                 "calories": null
             },   
+        ],
+        "reviews": [
+            {
+                "customer": "Maria S",
+                "review": "Food fresh, hot and very fast "
+            },
+            {
+                "customer": "Gerald D.",
+                "review": "Food always come hot. Food very good and orders from this Wendy's  restaurant is on time."
+            },
+            {
+                "customer": "Valerie W.",
+                "review": "I never have a problem here. I place orders at work to pick up 3 hours in advance they are always hot and ready for me when I get them"
+            },
         ]
     },
     {
@@ -281,6 +385,28 @@ const restaurants = [
                 "itemImg": "https://olo-images-live.imgix.net/9e/9e32e2941b5249e484499a9e08516878.jpeg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=1200&h=800&fit=fill&fm=png32&bg=transparent&s=7a75bb3ee5fb64091d655a5d8ec73d17",
                 "calories": 850
             }, 
+        ],
+        "reviews": [
+            {
+                "customer": "Maria S",
+                "review": "Food fresh, hot and very fast "
+            },
+            {
+                "customer": "Gerald D.",
+                "review": "Food always come hot. Food very good and orders from this Wendy's  restaurant is on time."
+            },
+            {
+                "customer": "Valerie W.",
+                "review": "I never have a problem here. I place orders at work to pick up 3 hours in advance they are always hot and ready for me when I get them"
+            },
+            {
+                "customer": "Johnny M.",
+                "review": "Everything tasted very well. Customer service was solid"
+            },
+            {
+                "customer": "Madelyn M.",
+                "review": "Customer service was solid"
+            }
         ]
     },
 ]; 

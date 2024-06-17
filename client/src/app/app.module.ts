@@ -15,6 +15,7 @@ import { CasualComponent } from './pages/casual/casual.component';
 import { FoodCategoryIcon } from './components/food-category-icon/food-category-icon.component';
 import { DetailedRestaurantComponent } from './pages/detailed-restaurant/detailed-restaurant.component';
 import { MenuItemCardComponent } from './components/menu-item-card/menu-item-card.component';
+import { CustomerReviewCardComponent } from './components/customer-review-card/customer-review-card.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { MenuItemCardComponent } from './components/menu-item-card/menu-item-car
     CasualComponent,
     DetailedRestaurantComponent,
     MenuItemCardComponent,
+    CustomerReviewCardComponent,
 
   ],
   imports: [
