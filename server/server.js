@@ -67,64 +67,36 @@ app.post('/add-restaurant', (req, res) => {
 
 
 
-
 app.get('/', (req, res) => {
     res.redirect('/home'); 
 }); 
 
 app.get('/getRestaurants', (req, res) => {
-    res.json(restaurants);
-    console.log('*Restaurants fetched*')
+    Restaurant.find()
+        .then((data) => {
+            console.log('All', data);  
+        })
 }); 
 
 app.get('/getFastFoods', (req, res) => {
-    let fastFoods = []; 
-
-    restaurants.forEach((rest) => {
-        if (rest.type === 'Fast-Food'){
-            fastFoods.push(rest);  
-        }
-    })
-
-    res.send(fastFoods); 
-    console.log('*Restaurants fetched*')
+    Restaurant.find({type: 'Fast-Food'})
+        .then((data) => {
+            console.log('Fast-Foods',data)
+        })
 }); 
 
 app.get('/getCafes', (req, res) => {
-    let cafes = []; 
-
-    restaurants.forEach((cafe) => {
-        if (cafe.type === 'Cafe') {
-            cafes.push(cafe); 
-        }
-    })
-
-    res.send(cafes); 
-    console.log('*Cafes fetched*')
+    Restaurant.find({type: 'Cafe'})
+        .then((data) => {
+            console.log('Cafes', data)
+        })
 }); 
 
 app.get('/getCasuals', (req, res) => {
-    let casuals = []; 
-
-    restaurants.forEach((c) => {
-        if (c.type === 'Casual') {
-            casuals.push(c); 
-        }
-    })
-
-    res.send(casuals);
-    console.log('*Casuals fetched*')
+    Restaurant.find({type: 'Casual'})
+        .then((data) => {
+            console.log('Casuals', data)
+        })
 }); 
 
-app.get('/getFancies', (req, res) => {
-    let fancies = []; 
 
-    restaurants.forEach((f) => {
-        if (f.type === 'Fancy') {
-            fancies.push(f); 
-        }
-    })
-
-    res.send(fancies);
-    console.log('*Fancies fetched*')
-}); 
