@@ -65,16 +65,12 @@ app.post('/add-restaurant', (req, res) => {
 
 })
 
-
-
-app.get('/', (req, res) => {
-    res.redirect('/home'); 
-}); 
-
 app.get('/getRestaurants', (req, res) => {
+    
     Restaurant.find()
         .then((data) => {
             console.log('All', data);  
+            res.send(data)
         })
 }); 
 
@@ -82,6 +78,7 @@ app.get('/getFastFoods', (req, res) => {
     Restaurant.find({type: 'Fast-Food'})
         .then((data) => {
             console.log('Fast-Foods',data)
+            res.send(data)
         })
 }); 
 
@@ -89,6 +86,7 @@ app.get('/getCafes', (req, res) => {
     Restaurant.find({type: 'Cafe'})
         .then((data) => {
             console.log('Cafes', data)
+            res.send(data)
         })
 }); 
 
@@ -96,6 +94,7 @@ app.get('/getCasuals', (req, res) => {
     Restaurant.find({type: 'Casual'})
         .then((data) => {
             console.log('Casuals', data)
+            res.send(data)
         })
 }); 
 
