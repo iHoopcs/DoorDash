@@ -6,7 +6,6 @@ Signup (Add Users to db)
 Add Restaurant (Create & add to db)
 
 
-Implement restaurant specific menus for each individual page
 Rating Box -> include star rating & reviews
 migrate to mongoDB database
 Footer -> flush to bottom 
