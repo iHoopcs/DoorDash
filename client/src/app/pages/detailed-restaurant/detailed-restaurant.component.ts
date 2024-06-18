@@ -16,7 +16,6 @@ export class DetailedRestaurantComponent {
     //fetch param values from active url
     const paramType:string | null = this.route.snapshot.paramMap.get('type');
     const paramName:string | null = this.route.snapshot.paramMap.get('name');
-    const paramId:string | null = this.route.snapshot.paramMap.get('id');
 
     this.http.fetchRestaurants().subscribe((data) => {
       
@@ -26,7 +25,7 @@ export class DetailedRestaurantComponent {
 
       //match param type,name,id of active url to find restaurant in db
       fetchedRestaurants.forEach((dbItem:any) => {
-        if (paramType === dbItem.type && paramName === dbItem.name && paramId === dbItem.id){
+        if (paramType === dbItem.type && paramName === dbItem.name){
           this.restaurant = dbItem;
           //console.log('Fetched',this.restaurant) 
         }
