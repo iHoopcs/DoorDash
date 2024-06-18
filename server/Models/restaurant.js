@@ -29,7 +29,7 @@ const restaurantSchema = new Schema({
     },
     menu:  {
         type: Array, 
-        required: true
+        required: false
     },
     reviews: {
         type: Array, 

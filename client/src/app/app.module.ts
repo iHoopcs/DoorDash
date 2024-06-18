@@ -20,7 +20,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { SignupComponent } from './pages/signup/signup.component';
 import { AdminComponent } from './pages/admin/admin.component';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-
+import { FormsModule } from '@angular/forms'; 
 
 @NgModule({
   declarations: [
@@ -46,6 +46,7 @@ import { provideAnimationsAsync } from '@angular/platform-browser/animations/asy
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule
   ],
   providers: [
     provideAnimationsAsync()

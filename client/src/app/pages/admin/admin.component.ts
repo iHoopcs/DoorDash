@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AdminComponent {
 
+  constructor(private http: HttpClient){}
+
+  onSubmit(restaurant: {restaurantName: string, typeRadios: string, restaurantImageSrc: string, restaurantHours: string,  restaurantRating: number  }): void {
+    console.log(restaurant)
+  }
 }
