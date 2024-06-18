@@ -8,7 +8,7 @@ const port = 3000;
 
 //allow http requets from angular frontend
 app.use(cors ({origin: 'http://localhost:4200'})); 
-
+app.use(express.json()); 
 //MongoDB connection
 mongoose.connect('mongodb+srv://iHoopcs:Bigcts17@cluster1.gtarcla.mongodb.net/DoorDash?retryWrites=true&w=majority&appName=Cluster1')
     .then(() => [
@@ -57,7 +57,7 @@ app.get('/getCasuals', (req, res) => {
 }); 
 //PUT
 app.put('/edit-restaurant', (req, res) => {
-                        //db query parameter    //value to change
+            //db query parameter    //value to change
     Restaurant.updateOne({}, {$set: {}})
         .then(() => {
             console.log('Edited!')
@@ -69,32 +69,21 @@ app.put('/edit-restaurant', (req, res) => {
 
 //POST
 app.post('/add-restaurant', (req, res) => {
-    /*
-    const newRestaurant = new Restaurant({
-        name: "",
-        image: "",
-        rating: 0,
-        href: "",
-        hours: "",
-        menu : [
-            {
-                "itemName": "",
-                "itemDescription": "",
-                "price": 0,
-                "itemImg": "",
-                "calories": 0
-            },
-            //add more with template above
-        ],
-        reviews: [
-            {
-                "customer": "",
-                "review": ""
-            },
-            //add more with template above
-        ]
-    })
-    
+    console.log(req.body)
+    let bodyData = req.body; 
+
+    const newRestaurant = new Restaurant ({
+        name: bodyData.name, 
+        type: bodyData.type, 
+        image: bodyData.image, 
+        href: `restaurant/${bodyData.type}/${bodyData.name}`,
+        hours: bodyData.hours, 
+        rating: bodyData.rating, 
+        menu: [],
+        reviews: []
+    }); 
+
+
     newRestaurant.save()
         .then((result) => {
             res.send(result)
@@ -103,8 +92,8 @@ app.post('/add-restaurant', (req, res) => {
         .catch((err) => {
             console.log(err)
         })
-    */
 
+    res.send('Restaurant Created'); 
 })
 
 

@@ -7,6 +7,7 @@ Add Restaurant (Create & add to db)
 Incorporate way to disable corresponding link to activate route (ex: disable login button on login page)
 Admin: 
     Incorporate dropdown menu for add restaurant, delete, edit
+    Create restaurant --> find existing restaurant --> no exists: dont create , else create
 migrate to mongoDB database
 Footer -> flush to bottom 
 
