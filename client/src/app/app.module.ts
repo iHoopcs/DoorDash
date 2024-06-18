@@ -16,6 +16,11 @@ import { FoodCategoryIcon } from './components/food-category-icon/food-category-
 import { DetailedRestaurantComponent } from './pages/detailed-restaurant/detailed-restaurant.component';
 import { MenuItemCardComponent } from './components/menu-item-card/menu-item-card.component';
 import { CustomerReviewCardComponent } from './components/customer-review-card/customer-review-card.component';
+import { LoginComponent } from './pages/login/login.component';
+import { SignupComponent } from './pages/signup/signup.component';
+import { AdminComponent } from './pages/admin/admin.component';
+import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
+
 
 @NgModule({
   declarations: [
@@ -32,14 +37,19 @@ import { CustomerReviewCardComponent } from './components/customer-review-card/c
     DetailedRestaurantComponent,
     MenuItemCardComponent,
     CustomerReviewCardComponent,
-
+    LoginComponent,
+    SignupComponent,
+    AdminComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
   ],
-  providers: [],
+  providers: [
+    provideAnimationsAsync()
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

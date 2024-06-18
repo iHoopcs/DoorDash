@@ -4,8 +4,9 @@ Search restaurants
 Login (Find user and pull user data)
 Signup (Add Users to db)
 Add Restaurant (Create & add to db)
-
-
+Incorporate way to disable corresponding link to activate route (ex: disable login button on login page)
+Admin: 
+    Incorporate dropdown menu for add restaurant, delete, edit
 migrate to mongoDB database
 Footer -> flush to bottom 
 
