@@ -14,6 +14,12 @@ export class HomeComponent {
     this.http.fetchRestaurants().subscribe((data) => {
       this.restaurants = data; 
       console.log(this.restaurants); 
+ 
+        this.restaurants.forEach((rest:any) => {
+          console.log('id', typeof(rest.id), rest.id)
+          rest.href = `restaurant/${rest.type}/${rest.name}`
+        })
+        console.log(this.restaurants)
     }); 
   }
 }

@@ -11,4 +11,5 @@ export class RestaurantCardComponent {
   @Input() restaurants: any; 
   constructor(){}
   
+  
 }

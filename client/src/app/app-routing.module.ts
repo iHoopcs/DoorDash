@@ -11,7 +11,7 @@ const routes: Routes = [
   {path:'fast-food', component:FastFoodsComponent},
   {path:'cafe', component:CafeComponent},
   {path:'casual-dining', component:CasualComponent},
-  {path:'restaurant/:type/:name/:id', component:DetailedRestaurantComponent }
+  {path:'restaurant/:type/:name', component:DetailedRestaurantComponent }
 ];
 
 @NgModule({
