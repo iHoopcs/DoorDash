@@ -1,18 +1,21 @@
+require('dotenv').config(); 
 const express = require('express'); 
 const cors = require('cors'); 
 const mongoose = require('mongoose');
 const Restaurant = require('./Models/restaurant'); 
 
 const app = express(); 
-const port = 3000; 
+const port = process.env.PORT; 
 
 //allow http requets from angular frontend
-app.use(cors ({origin: 'http://localhost:4200'})); 
+app.use(cors({origin: '*'})); 
 app.use(express.json()); 
-//MongoDB connection
-mongoose.connect('mongodb+srv://iHoopcs:Bigcts17@cluster1.gtarcla.mongodb.net/DoorDash?retryWrites=true&w=majority&appName=Cluster1')
+
+//MongoDB
+mongoose.connect(process.env.MONGODB_URI)
     .then(() => [
         console.log('MongoDB Connected'),
+        //start server
         app.listen(port, () => {
             console.log('Server started')
         })
@@ -20,7 +23,7 @@ mongoose.connect('mongodb+srv://iHoopcs:Bigcts17@cluster1.gtarcla.mongodb.net/Do
     ])
     .catch((err) => {
         console.log(err, 'Connection failed')
-    });
+});
 
 //routes
 //GET
